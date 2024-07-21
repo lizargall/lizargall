@@ -1,0 +1,8 @@
+{
+  "label": "Aria Data Tools",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation to support Project Aria's first open source release."
+  }
+}

@@ -69,14 +69,14 @@ const config = {
         title: 'Liz Argall',
         logo: {
           alt: 'Liz Logo',
-          src: 'img/logo.svg',
+          src: 'img/pencil-solid.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Technical Writing',
+            label: 'Portfolio',
           },
           // {
           //   type: 'docSidebar',
@@ -86,8 +86,8 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.linkedin.com/in/lizargall/',
+            label: 'LinkedIn',
             position: 'right',
           },
         ],

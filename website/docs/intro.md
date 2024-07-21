@@ -5,9 +5,9 @@ title: Portfolio
 
 # About Liz
 
-Welcome to my technical writing portfolio site.
+Welcome to my technical writing portfolio. Here are a few suggestions to get you started, more detailed cases studies below.
 
-* Project Aria FAQ - explaining 
+* [Project Aria FAQ](/aria_docs/faq.mdx) - 
 
 
 ## Aria Data Tools

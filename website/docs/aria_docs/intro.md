@@ -5,7 +5,7 @@ title: Introduction to Project Aria Docs
 ---
 
 :::info Writing Sample
-This page is based on technical writing I did for Project Aria. There's always room for improvement, so I've made a few revisions since I finished up my contract! For the most up to date documentation go to [Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/intro).
+This page is based on technical writing I did for Project Aria. There's always room for improvement, so I've made a few revisions! Some of the links will be broken, as I did not bring across the whole site. For the most up to date documentation go to [Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/intro).
 :::
 
 Project Aria is a research platform designed to accelerate egocentric (from a human perspective) AI research. Project Aria data, tooling and resources helps advance research around the world in areas such as computer vision, robotics, and contextual AI. 

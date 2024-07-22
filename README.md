@@ -3,7 +3,7 @@
 ## Facts and figures
 Technical writer, content creator and problem solver.
 
-I've just finished a contract working as Project Aria's Technical Writer and I'm looking for my next opportunity. 
+I've just finished a contract working as [Project Aria's](https://www.projectaria.com/) Technical Writer and I'm looking for my next opportunity. 
 * [LinkedIn](https://www.linkedin.com/in/lizargall/)
 
 ## As a human

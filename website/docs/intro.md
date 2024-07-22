@@ -7,15 +7,19 @@ title: Portfolio
 
 Welcome to my technical writing portfolio. Here are a few suggestions to get you started, more detailed cases studies below.
 
-* [Project Aria FAQ](/aria_docs/faq.mdx) - 
-
+- [Aria Data Tools Overview](/adt/adt_overview.mdx)
+    - Straightforward introduction to Aria Data Tools, from July 2022. The first open tooling we released for working the Aria data.
+- [Project Aria FAQ](/aria_docs/faq.mdx)
+    - Comprehensive overview of the Project Aria program, from July 2024. The program has evolved a lot since July 2024.
+- [Time Synchronized Recordings with Multiple Aria Glasses](/aria_docs/ticsync.mdx)
+    - Complex step by step instructions.
 
 ## Aria Data Tools
 ### Problem
 Project Aria was about to do its first ever open data release with accompanying tooling. We had no idea how this project would be received and we had a very small team. 
 
 ### Actions
-Given how busy our engineers were, I took on creating our static website, as well as taking an extremely active role putting together the documentation. Having only been in the role for a month, and never having created a static website before, I quickly leveled up and produced high quality content.
+Given how busy our engineers were, I took on creating ourc static website, as well as taking an extremely active role putting together the documentation. Having only been in the role for a month, and never having created a static website before, I quickly leveled up and produced high quality content.
 
 ### Outcomes
 
@@ -26,7 +30,7 @@ Aria Data Tools helped pave the way for Project Aria's even more ambitious proje
 ### Sample pages
 * [Aria Data Tools Overview](/adt/adt_overview.mdx)
 * [Sensors and Measurements](/adt/sensors-measurements.mdx)
-* [Accessing Sensor Data]
+* [Accessing Sensor Data](/adt/dataprovider.mdx)
 * [Aria Pilot Dataset Overview]
 
 [Aria Data Tools Archive site](https://facebookresearch.github.io/Aria_data_tools/docs/overview/)
@@ -52,16 +56,11 @@ Continuing to raise the standard around documentation and having engineers takin
 * [Timestamp Definitions](/aria_docs/timestamps_in_aria_vrs.mdx)
 * [Eye Gaze MPS](/aria_docs/mps_eye_gaze.mdx)
 * [Aria Glasses Quickstart Guide](/aria_docs/ARK_quickstart.mdx)
-* Time Synchronized Recordings with Multiple Aria Glasses
-* MPS CLI - Getting Started
-* MPS CLI Guide
-* Eye Gaze Calibration
-* MPS Data Processing
-* MPS Troubleshooting
-* ARK SW Release Notes
-
-
-
-
+* [Time Synchronized Recordings with Multiple Aria Glasses](/aria_docs/ticsync.mdx)
+* [MPS CLI - Getting Started](/aria_docs/mps_cli_getting_started.mdx)
+* [MPS CLI Guide](/aria_docs/mps_cli_guide.mdx)
+* [Eye Gaze Calibration](/aria_docs/eye_gaze_calibration.mdx)
+* [MPS Data Processing](/aria_docs/mps_processing.mdx)
+* [MPS Troubleshooting](/aria_docs/mps_troubleshooting.mdx)
 
 [Project Aria Docs site](https://facebookresearch.github.io/projectaria_tools/docs/intro)

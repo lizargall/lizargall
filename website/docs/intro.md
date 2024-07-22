@@ -24,8 +24,8 @@ Tbe open data release was extremely successful and helped inspire many future re
 Aria Data Tools helped pave the way for Project Aria's even more ambitious project Project Aria Docs.
 
 ### Sample pages
-* [Aria Data Tools Overview]
-* [Sensors and Measurements]
+* [Aria Data Tools Overview](/adt/adt_overview.mdx)
+* [Sensors and Measurements](/adt/sensors-measurements.mdx)
 * [Accessing Sensor Data]
 * [Aria Pilot Dataset Overview]
 
@@ -46,12 +46,12 @@ Continuing to raise the standard around documentation and having engineers takin
 
 ### Sample Pages
 
-* Introduction to Project Aria Docs
-* Project Aria FAQ
-* Recording Profiles
-* Timestamp Definitions
-* Eye Gaze MPS
-* Aria Glasses Quickstart Guide
+* [Introduction to Project Aria Docs](/aria_docs/intro.md)
+* [Project Aria FAQ](/aria_docs/faq.mdx)
+* [Recording Profiles](/aria_docs/recording_profiles.mdx)
+* [Timestamp Definitions](/aria_docs/timestamps_in_aria_vrs.mdx)
+* [Eye Gaze MPS](/aria_docs/mps_eye_gaze.mdx)
+* [Aria Glasses Quickstart Guide](/aria_docs/ARK_quickstart.mdx)
 * Time Synchronized Recordings with Multiple Aria Glasses
 * MPS CLI - Getting Started
 * MPS CLI Guide

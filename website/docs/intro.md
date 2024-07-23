@@ -6,20 +6,22 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # About Liz
 
-Welcome to my technical writing portfolio. Here are a few suggestions to get you started, more detailed cases studies below.
+Cool graphic here!
+
+Welcome to my technical writing portfolio. Here are a few suggestions to get you started; more detailed case studies below.
 
 - [Aria Data Tools Overview](/adt/adt_overview.mdx)
     - Straightforward introduction to Aria Data Tools, from July 2022. The first open tooling we released for working the Aria data.
 - [Project Aria FAQ](/aria_docs/faq.mdx)
-    - Comprehensive overview of the Project Aria program, from July 2024. The program has evolved a lot since July 2024.
+    - Comprehensive overview of the Project Aria program, from July 2024. The program has evolved a lot in two years and our external documentation serves a much broader audience.
 - [Time Synchronized Recordings with Multiple Aria Glasses](/aria_docs/ticsync.mdx)
     - Complex step by step instructions.
 - [Audio Troubleshooting for Halo Infinite](https://support.halowaypoint.com/hc/en-us/articles/4410860512788-Audio-Troubleshooting-for-Halo-Infinite) (external link)
-    - Audio troubleshooting guide for Halo Infinite that included accordions for multiple complex steps
+    - Audio troubleshooting guide for Halo Infinite that included accordions for multiple complex steps.
 - <a href="/downloads/acrolinx_ppt.pdf" download>Acrolinx Presentation - download .pdf</a>
-    - Example of Acrolinx analysis and demo made for a potential customer using their own sample documents
+    - Example of Acrolinx analysis and demo made for a potential customer, using their own sample documents.
 - <a href="/downloads/circus_maternity_2007.doc">Warehouse Circus Maternity Policy</a>
-    - In 2007 I consulted broadly to create what may be the fist formal maternity policies and guidelines for a circus in the anglophone world
+    - In 2007 I consulted broadly to create what may be the first formal maternity policies and guidelines for a circus in the anglophone world.
 
 ## Aria Data Tools
 ### Problem

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 id: intro
 title: Introduction to Project Aria Docs
 ---

@@ -5,6 +5,10 @@ Technical writer, content creator and problem solver.
 
 I've just finished a contract working as [Project Aria's](https://www.projectaria.com/) Technical Writer and I'm looking for my next opportunity. 
 * [LinkedIn](https://www.linkedin.com/in/lizargall/)
+* [Liz Argall Portfolio](https://lizargall.github.io/docs/intro) (Docusaurus static website hosted on GitHub)
+
+My GitHub history is not very long, as most of my contributions have been through Meta. If you go to [Project Aria Tools Actions](https://github.com/facebookresearch/projectaria_tools/actions?page=6) and look at workflows from July 15 2024 or earlier, many of the updates with {Documentation} in the title have been created by me.
+
 
 ## As a human
 Paraphrased from [lizargall.com](https://lizargall.com)

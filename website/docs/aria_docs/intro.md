@@ -2,6 +2,7 @@
 sidebar_position: 5
 id: intro
 title: Introduction to Project Aria Docs
+description: Project Aria provides Open Science Initiatives (OSI) and the Aria Research Kit (ARK).
 ---
 
 :::info Writing Sample

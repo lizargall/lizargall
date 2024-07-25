@@ -4,9 +4,11 @@ title: Portfolio
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# About Liz
+# Liz Argall
+Technical writing, training and consulting. Supporting organizations through growth and change.
 
-Cool graphic here!
+![Problems solved, content created](/img/problems_solved.png)
+
 
 Welcome to my technical writing portfolio. Here are a few suggestions to get you started!
 
@@ -20,7 +22,7 @@ Welcome to my technical writing portfolio. Here are a few suggestions to get you
     - Audio troubleshooting guide for Halo Infinite that included accordions for multiple complex steps.
 - <a href="/downloads/acrolinx_ppt.pdf" download>Acrolinx Presentation - download .pdf</a>
     - Example of Acrolinx analysis and demo made for a potential customer, using their own sample documents.
-- <a href="/downloads/circus_maternity_2007.doc">Warehouse Circus Maternity Policy</a>
+- <a href="/downloads/circus_maternity_2007.doc">Warehouse Circus Maternity Policy - download .pdf</a>
     - In 2007 I consulted broadly to create what may be the first formal maternity policies and guidelines for a circus in the anglophone world.
 
 

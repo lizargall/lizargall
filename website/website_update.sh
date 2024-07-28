@@ -1,12 +1,13 @@
-#! /bin/sh
+#! /bin/bash
 
 # Script to update docusaurus website 
-MESSAGE="Testing variables in the script"
+read -p "Commit Message:" MESSAGE
+# MESSAGE="Testing variables in the script"
 cd ~/repos/lizargall/ # Go to the build repository 
 git add -v ~/repos/lizargall/
 git commit -m "$MESSAGE"
 git push
-echo \"$MESSAGE\" "pushed to build repo"
+echo "\"$MESSAGE\" pushed to build repo"
 cd website
 npm run build # Build the site
 rm -r ~/repos/lizargall.github.io/docs/* # Prepare the deploy repository by deleting all the contents of the docs folder
@@ -16,4 +17,4 @@ cd ~/repos/lizargall.github.io/
 git add -v ~/repos/lizargall.github.io/docs
 git commit -m "$MESSAGE"
 git push
-echo \"$MESSAGE\" "pushed to deploy repo"
+echo "\"$MESSAGE\" pushed to deploy repo"

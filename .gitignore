@@ -16,7 +16,6 @@
 .env.production.local
 authors.yml
 yarn.lock
-website_update.sh
 
 
 npm-debug.log*

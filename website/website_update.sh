@@ -14,6 +14,6 @@ mv build/* ~/repos/lizargall.github.io/docs # Move the contents of the build dir
 ls -l ~/repos/lizargall.github.io/docs 
 cd ~/repos/lizargall.github.io/ 
 git add -v ~/repos/lizargall.github.io/docs
-git commit -m $MESSAGE
+git commit -m "$MESSAGE"
 git push
 echo \"$MESSAGE\" "pushed to deploy repo"

@@ -1,11 +1,12 @@
 #! /bin/sh
 
 # Script to update docusaurus website 
-MESSAGE = "Testing variables in the script"
+MESSAGE="Testing variables in the script"
 cd ~/repos/lizargall/ # Go to the build repository 
 git add -v ~/repos/lizargall/
-git commit -m MESSAGE
-git push
+git commit -m "$MESSAGE"
+echo $MESSAGE
+# git push
 # cd website
 # npm run build # Build the site
 # rm -r ~/repos/lizargall.github.io/docs/* # Prepare the deploy repository by deleting all the contents of the docs folder

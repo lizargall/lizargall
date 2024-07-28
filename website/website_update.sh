@@ -5,7 +5,7 @@ MESSAGE="Testing variables in the script"
 cd ~/repos/lizargall/ # Go to the build repository 
 git add -v ~/repos/lizargall/
 git commit -m "$MESSAGE"
-echo $MESSAGE "pushed to build repo"
+echo \"$MESSAGE\" "pushed to build repo"
 # git push
 # cd website
 # npm run build # Build the site

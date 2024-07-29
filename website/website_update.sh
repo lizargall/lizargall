@@ -1,8 +1,7 @@
 #! /bin/bash
 
 # Script to update docusaurus website 
-read -p "Commit Message:" MESSAGE
-# MESSAGE="Testing variables in the script"
+read -p "Commit Message:" MESSAGE 
 cd ~/repos/lizargall/ # Go to the build repository 
 git add -v ~/repos/lizargall/
 git commit -m "$MESSAGE"

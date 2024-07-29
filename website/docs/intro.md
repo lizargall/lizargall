@@ -24,5 +24,7 @@ Welcome to my technical writing portfolio. Here are a few suggestions to get you
     - Example of Acrolinx analysis and demo made for a potential customer, using their own sample documents.
 - <a href="/downloads/circus_maternity_2007.doc">Warehouse Circus Maternity Policy - download .pdf</a>
     - In 2007 I consulted broadly to create what may be the first formal maternity policies and guidelines for a circus in the anglophone world.
+- [The Pulp Stage Case Study](pulp_stage.mdx)
+    - Graphic design, marketing and governance consulting.
 
 

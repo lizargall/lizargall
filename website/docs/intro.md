@@ -15,8 +15,9 @@ Welcome to my portfolio. Here are a few suggestions to get you started!
 
 - [Aria Data Tools Overview](/adt/adt_overview.mdx)
     - Straightforward introduction to Aria Data Tools, from July 2022. The first open tooling we released for working the Aria data.
+    - Aria Data Tools provides C++ and Python3 tools to interact with Project Aria data.
 - [Project Aria FAQ](/aria_docs/faq.mdx)
-    - Comprehensive overview of the Project Aria program, from July 2024. The program has evolved a lot in two years and our external documentation serves a much broader audience.
+    - Comprehensive overview of the Project Aria program, from July 2024. The program has evolved substantially in two years and our external documentation serves a much broader audience.
 - [Time Synchronized Recordings with Multiple Aria Glasses](/aria_docs/ticsync.mdx)
     - Complex step by step instructions.
 - [Audio Troubleshooting for Halo Infinite](https://support.halowaypoint.com/hc/en-us/articles/4410860512788-Audio-Troubleshooting-for-Halo-Infinite) (external link)

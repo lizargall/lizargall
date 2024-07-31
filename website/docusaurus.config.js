@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Liz Argall',
-  tagline: 'Problems Solved | Content Created',
+  tagline: 'Creating empowering documentation and processes; where you need it, when you need it.',
   favicon: 'img/favicon.ico',
 
   // Set the deploy url of your site here

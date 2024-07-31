@@ -5,11 +5,17 @@ title: Portfolio
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Liz Argall
-Technical writing, training and consulting. Supporting organizations through growth and change.
+Creating empowering documentation and processes; where you need it, when you need it.
 
-![Problems solved, content created](/img/problems_solved.png)
+### Documentation is everywhere
+I train, inspire and empower SMEs to create stronger documentation. Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and f-strings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
 
-Welcome to my portfolio. Here are a few suggestions to get you started!
+### Greenfield or legacy documentation
+I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. Breaking ground for new products or transforming old content into revitalized experiences.
+
+### Your organization is unique
+I thrive learning about new processes, software, and what matters to your experts and audiences. To write effectively for an organization, it's essential to listen deeply and get hands on experience with their products.
+
 
 ## Technical writing samples:
 
@@ -22,12 +28,12 @@ Welcome to my portfolio. Here are a few suggestions to get you started!
     - Complex step by step instructions.
 - [Audio Troubleshooting for Halo Infinite](https://support.halowaypoint.com/hc/en-us/articles/4410860512788-Audio-Troubleshooting-for-Halo-Infinite) (external link)
     - Audio troubleshooting guide for Halo Infinite that included accordions for multiple complex steps.
-    - In 2007 I consulted broadly to create what may be the first formal maternity policies and guidelines for a circus in the anglophone world.
 
 ## Communications strategy and consulting:
 - [The Pulp Stage Case Study](pulp_stage.mdx)
     - Graphic design, marketing and governance consulting.
 - <a href="/downloads/circus_maternity_2007.doc">Warehouse Circus Maternity Policy - download .pdf</a>
+    - In 2007 I consulted broadly to create what may be the first formal maternity policies and guidelines for a circus in the anglophone world.
 - <a href="/downloads/acrolinx_ppt.pdf" download>Acrolinx Presentation - download .pdf</a>
     - Example of Acrolinx analysis and demo made for a potential customer, using their own sample documents.
     - See below for a presentation I made at Content Connections in 2018. It describes how we can use AI (Acrolinx) in partnership with human intelligences in powerful ways. Celebrate and support humans to do what they do best, and use computers for what they do best. 

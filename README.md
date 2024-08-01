@@ -9,6 +9,17 @@ I've just finished a contract working as [Project Aria's](https://www.projectari
 
 My GitHub history is not very long, as most of my contributions have been through Meta. If you go to [Project Aria Tools Actions](https://github.com/facebookresearch/projectaria_tools/actions?page=6) and look at workflows from July 15 2024 or earlier, many of the updates with {Documentation} in the title have been created by me.
 
+## How I approach Technical Writing
+### Documentation is everywhere
+I train, inspire and empower SMEs to create stronger documentation. Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and f-strings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
+
+### Greenfield or legacy documentation
+I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. Breaking ground for new products or transforming old content into revitalized experiences.
+
+### Your organization is unique
+I thrive learning about new processes, software, and what matters to your experts and audiences. To write effectively for an organization, it's essential to listen deeply and get hands on experience with their products.
+
+
 
 ## As a human
 Paraphrased from [lizargall.com](https://lizargall.com)

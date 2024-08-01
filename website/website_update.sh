@@ -20,7 +20,7 @@ if [ $(ls -A "build/" | wc -l) -eq 2 ]; then # Check if there are files other th
     echo "Build folder is empty, check that \`npm run start\` built in the correct repository. "
     exit 1
 else
-    echo "Preparing build repository..."
+    echo "Preparing deploy repository..."
 fi
 
 rm -r ~/repos/lizargall.github.io/docs/* # Prepare the deploy repository by deleting all the contents of the docs folder

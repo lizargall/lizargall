@@ -92,51 +92,59 @@ const config = {
           },
         ],
       },
-      // footer: {
-      //   style: 'dark',
-      //   links: [
-      //     {
-      //       title: 'Docs',
-      //       items: [
-      //         {
-      //           label: 'Tutorial',
-      //           to: '/docs/intro',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'Community',
-      //       items: [
-      //         {
-      //           label: 'Stack Overflow',
-      //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-      //         },
-      //         {
-      //           label: 'Discord',
-      //           href: 'https://discordapp.com/invite/docusaurus',
-      //         },
-      //         {
-      //           label: 'Twitter',
-      //           href: 'https://twitter.com/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'More',
-      //       items: [
-      //         {
-      //           label: 'Blog',
-      //           to: '/blog',
-      //         },
-      //         {
-      //           label: 'GitHub',
-      //           href: 'https://github.com/facebook/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   copyright: `Built with Docusaurus.`,
-      // },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Case Studies',
+            items: [
+              {
+                label: 'Aria Data Tools',
+                to: '/docs/adt',
+              },
+              {
+                label: 'The Pulp Stage',
+                to: '/docs/pulp_stage',
+              },
+              {
+                label: 'Project Aria Docs',
+                to: '/docs/aria_docs',
+              },
+            ],
+          },
+          {
+            title: 'Featured Content',
+            items: [
+              {
+                label: 'Project Aria FAQ',
+                to: '/docs/aria_docs/faq',
+              },
+              {
+                label: 'MPS Guide - Cloud Services',
+                to: '/docs/aria_docs/mps/mps_cli_guide',
+              },
+              {
+                label: 'Acrolinx - an AI content governance tool',
+                to: '/docs/acrolinx',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'LinkedIn',
+                href: '/https://www.linkedin.com/in/lizargall/',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/lizargall',
+              },
+            ],
+          },
+        ],
+        copyright: `Built with Docusaurus.`,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

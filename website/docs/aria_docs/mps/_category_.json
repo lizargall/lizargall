@@ -1,0 +1,9 @@
+{
+    "label": "MPS - Cloud-Based Services",
+    "position": 400,
+    "link": {
+        "type": "generated-index",
+        "description": "Project Aria research partners can request cloud-based data processing of raw Aria data. Through Machine Perception Services (MPS), research partners can generate Eye Gaze, SLAM (trajectory, semi-dense point clouds and calibration data), Multi-SLAM (SLAM data from multiple Aria devices in a shared world location) and Hand Tracking derived data. Open data releases also contain MPS data. Go to https://explorer.projectaria.com/ to view interactive visualizations of MPS data using Rerun."
+    }
+    
+}

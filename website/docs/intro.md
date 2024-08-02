@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Creating empowering documentation and processes; where you need it, when you need it.
 
 ### Documentation is everywhere
-[I train, inspire and empower SMEs to create stronger documentation](aria_docs). Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and f-strings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
+[I train, inspire and empower SMEs to create stronger documentation](aria_docs). Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and docstrings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
 
 ### Greenfield or legacy documentation
 I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. I [break ground](adt) for new products or [transform old content into revitalized experiences](enmasse).

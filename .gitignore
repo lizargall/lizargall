@@ -3,6 +3,7 @@
 
 # Production
 /build
+/website/static/img/svgs/*
 
 # Generated files
 .docusaurus

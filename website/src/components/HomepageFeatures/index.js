@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Documentation is Everywhere',
-    Svg: require('@site/static/img/connectdevelop.svg').default,
+    Svg: require('@site/static/img/unique.svg').default,
     description: (
       <>
       I train, inspire and empower SMEs to create stronger documentation. Whether the content is for websites, manuals or in the code.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Greenfield or Legacy Documentation',
-    Svg: require('@site/static/img/sitemap.svg').default,
+    Svg: require('@site/static/img/unique.svg').default,
     description: (
       <>
        I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. Breaking ground for new products or transforming old content into revitalized experiences.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Your Organization is Unique',
-    Svg: require('@site/static/img/hat-wizard.svg').default,
+    Svg: require('@site/static/img/unique.svg').default,
     description: (
       <>
       I thrive learning about new processes, software, and what matters to your experts and audiences. To write effectively for an organization, it's essential to listen deeply and get hands on experience with their products.

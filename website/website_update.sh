@@ -2,8 +2,13 @@
 
 # Script to update docusaurus website. Needs to be run from the build repo's website directory. 
 
-read -p "Commit Message:" MESSAGE 
-git add -v ..
+read -p "Commit Message:" MESSAGE # prompt the user to enter a commit message
+if [ -z "$MESSAGE" ]; then # Quit the application if a a commit message is not provided.
+   echo "Commit message required"
+   exit 1
+fi
+
+git add -v .. 
 git commit -m "$MESSAGE"
 git push
 echo "\"$MESSAGE\" pushed to build repo"

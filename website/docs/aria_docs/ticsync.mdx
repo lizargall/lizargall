@@ -15,11 +15,14 @@ Users can capture time-synchronized data between multiple Project Aria glasses o
 
 The accuracy of this method has been tested to be better than 1ms on average after approximately 45 seconds warm-up.
 
-This guide covers how to:
+This guide covers:
 
-* Create TICSync recordings
-* Download TICSync recordings
-* Load and visualize TICSync recordings
+* [Create TICSync recordings](#create)
+* [Download TICSync recordings](#download)
+* [Load and visualize TICSync recordings](#load)
+* [Troubleshooting](#troubleshooting)
+
+<div id="create"/>
 
 For more details, go to:
 * [TICSync Code Snippet](/ARK/sdk/samples/ticsync_sample.mdx)
@@ -94,7 +97,7 @@ python -m ticsync_cleanup --total_num_devices 3
 3. Press Enter to initiate cleanup
 
 Example output:
-
+<div id="download"/>
 
 ```
 -------- Plug in all devices to your computer again for TicSync cleanup --------
@@ -149,6 +152,7 @@ Use a Shared Session ID to copy all files from a recording session to a specific
 python -m ticsync_file_manager --download 7dfe4d16-6f54-47bf-859e-6ee4043234d3 --output_dir recording_session_2
 ```
 
+<div id="load"/>
 The folder will contain a VRS for each recording with all sensor data, including timestamps from the shared reference clock.
 
 <div id="tutorial"></div>

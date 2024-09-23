@@ -21,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 /static/img/pulp_stage/pulp_extras
+

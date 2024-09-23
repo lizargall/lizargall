@@ -14,12 +14,12 @@ This page is an archive of technical writing I did for Project Aria. For the mos
 ## Introduction
 This page provides an overview of the sensors and measurements we use for Project Aria, covering:
 
-* Project Aria device sensors
-* Naming conventions for all the tools and IDs used for sensors
-* Coordinate systems
-* Time (inc time stamping and camera shutter types)
-* GPS
-* Units of measurement
+* [Project Aria device sensors](#sensors)
+* [Naming conventions for all the tools and IDs used for sensors](#naming)
+* [Coordinate systems](#coordinate)
+* [Time (inc time stamping and camera shutter types)](#time)
+* [GPS](#gps)
+* [Units of measurement](#units)
 
 
 ## Sensors
@@ -35,6 +35,7 @@ Project Aria sensor data is stored in [VRS](https://facebookresearch.github.io/v
 
 Researchers can use different sensor profiles when collecting data. Sensor profiles allow them to choose which sensors record as well as what settings to use. Settings options include what camera resolution to use and whether the output is RAW (no encoding) or JPEG (compressed).
 
+<div id="naming"/>
 :::tip
 Cameras on Project Aria devices are installed sideways. By default, images are reported and viewed as they were provided by cameras and will appear sideways.
 :::
@@ -97,6 +98,8 @@ A unique ID number for each instance of a sensor type. The first instance of a s
 
 Unique identifier for a stream of data in VRS.
 
+<div id="coordinate"/>
+
 A StreamId identifies each instance of a sensor, device, algorithm, or "something" that produces a stream of records. A StreamId combines a RecordableTypeId that describes the type of sensor device, or other producer of records, and an instance id, to differentiate streams coming from different sensors of the same type.
 
 ## Coordinate Systems
@@ -119,6 +122,7 @@ Every signal (or Record in VRS terms) collected by sensors is stamped with a tim
 * IMUs, accelerometers and gyroscopes may have a time offset from the local time clock. This is due to internal signal processing in the IMU, which introduces a small time delay. These are estimated during calibration and stored in the JSON as `TimeOffsetSec_Device_Gyro` and `TimeOffsetSec_Device_Accel` respectively.
 
 ## GPS
+<div id="units"/>
 Horizontal and vertical accuracy are calculated using [Android definitions](https://developer.android.com/reference/android/location/Location#getAccuracy).
 
 ## Units of Measurement

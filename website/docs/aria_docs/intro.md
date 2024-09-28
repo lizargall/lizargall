@@ -11,7 +11,7 @@ This page is based on technical writing I did for Project Aria. There's always r
 
 Project Aria is a research platform designed to accelerate egocentric (from a human perspective) AI research. Project Aria data, tooling and resources helps advance research around the world in areas such as computer vision, robotics, and contextual AI. 
 
-Many of the world’s leading research communities will need to collectively work together to solve big challenges in these fields. To support these efforts, Project Aria provides Open Science Initiatives (OSI) and the Aria Research Kit (ARK).
+Many of the world’s leading research communities will need to collectively work together to solve the significant challenges in these fields. To support these efforts, Project Aria provides Open Science Initiatives (OSI) and the Aria Research Kit (ARK).
 
 ![Visualization of Nymeria data using Aria Data Explorer](/img/aria_docs/nymeria_explorer.png)
 **Figure 1:** *Visualization from the Nymeria open dataset*
@@ -80,7 +80,7 @@ Project Aria devices can be used to:
 * Stream data
     * Use the Project Aria Client SDK to stream and subscribe to data on your local machine
 
-Before applying for the ARK, please explore our OSI offerings, [FAQ](/faq.mdx). Once you are confident that the ARK is a good match for your research, please apply for the Aria Research Kit.
+Before applying for the ARK, please explore our OSI offerings and [FAQ](/faq.mdx). Once you are confident that the ARK is a good match for your research, please apply for the Aria Research Kit.
 
 * [Project Aria: Academic Partnership Interest Form](https://www.facebook.com/help/contact/409561724891076)
 * [Project Aria: Corporate Partnership Interest Form](https://docs.google.com/forms/d/e/1FAIpQLSeEQkP6zM-T2mrn5WUy2K-CliiXPXXmgHUEmT20FtAk5fi6vw/viewform)

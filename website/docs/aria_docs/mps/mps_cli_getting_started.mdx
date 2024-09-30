@@ -12,7 +12,7 @@ This page is an archive of technical writing I did for Project Aria. For the mos
 
 ## Overview
 
-The Project Aria Machine Perceptions Services Command Line Interface (MPS CLI) is a command line tool used to request and receive [Machine Perception Services](/ARK/mps/mps.mdx). While you can use the [Desktop Companion app to request MPS](desktop_mps.mdx), the MPS CLI provides more features and more robust file uploading. This page provides basic information to get you started with the MPS CLI, go to the [MPS CLI Guide](mps_cli_guide.mdx) for more details.
+The Project Aria Machine Perceptions Services Command Line Interface (MPS CLI) is a command line tool used to request and receive [Machine Perception Services](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps). While you can use the [Desktop Companion app to request MPS](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps/request_mps/desktop_mps), the MPS CLI provides more features and more robust file uploading. This page provides basic information to get you started with the MPS CLI, go to the [MPS CLI Guide](mps_cli_guide.mdx) for more details.
 
 The MPS inputs can be a file or directory, and multiple inputs can be listed in a single command.
 
@@ -36,9 +36,9 @@ This tutorial uses the the MPS CLI UI, but all processes can also work can witho
 
 ### Install Project Aria Tools
 
-Project Aria MPS CLI is only available if you install the [pip installation version of Project Aria Tools](/data_utilities/installation/installation_python.mdx). This installation has been designed to be simple to use, even if you are not familiar with programming languages.
+Project Aria MPS CLI is only available if you install the [pip installation version of Project Aria Tools](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/installation/installation_python). This installation has been designed to be simple to use, even if you are not familiar with programming languages.
 
-* [Install Project Aria Tools](/data_utilities/installation/installation_python.mdx)
+* [Install Project Aria Tools](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/installation/installation_python)
 
 To return to your installation of Project Aria Tools at any time, restart the virtual environment using the following command:
 
@@ -93,7 +93,7 @@ Once the request has been processed, the MPS output will be downloaded next to t
         └── recording1.vrs
 ```
 
-Go to [MPS Data Format Basics](/data_formats/mps/mps_summary.mdx) for more details about the folder structure.
+Go to [MPS Data Format Basics](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/mps_summary) for more details about the folder structure.
 
 ### Exit the MPS CLI
 
@@ -107,7 +107,7 @@ If you quit the request tool once the files have been uploaded, the MPS processe
 
 ### Multi Sequence MPS Requests
 
-When you request MPS using `multi` mode, MPS will process a group of recordings together to generate Multi-SLAM MPS. [Multi-SLAM MPS](/data_formats/mps/slam/mps_multi_slam.mdx) creates SLAM MPS outputs in a shared co-ordinate frame. Once the request has been processed, the MPS output will be downloaded to the directory you defined.
+When you request MPS using `multi` mode, MPS will process a group of recordings together to generate Multi-SLAM MPS. [Multi-SLAM MPS](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/slam/mps_multi_slam) creates SLAM MPS outputs in a shared co-ordinate frame. Once the request has been processed, the MPS output will be downloaded to the directory you defined.
 
 ```
 aria_mps multi -i ~/Downloads/Example/ -o ~/Documents/multi_slam_output
@@ -118,6 +118,6 @@ aria_mps multi -i ~/Downloads/Example/ -o ~/Documents/multi_slam_output
 ## Working with MPS data
 
 You may find the following resources helpful when working with MPS data:
-* [MPS Data Formats](/data_formats/mps/mps_summary.mdx)
-* [Visualize MPS Using Python](/data_utilities/visualization/visualization_python.mdx)
-* [Visualize MPS Using C++](/data_utilities/visualization/visualization_cpp.mdx)
+* [MPS Data Formats](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/mps_summary)
+* [Visualize MPS Using Python](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_python)
+* [Visualize MPS Using C++](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_cpp)

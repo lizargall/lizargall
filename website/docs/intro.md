@@ -8,10 +8,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Creating empowering documentation and processes; where you need it, when you need it.
 
 ### Documentation is everywhere
-[I train, inspire and empower SMEs to create stronger documentation](aria_docs). Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and docstrings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
+[I train, inspire and empower SMEs to create stronger documentation](aria_docs/aria_docs.mdx). Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and docstrings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
 
 ### Greenfield or legacy documentation
-I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. I [break ground](adt) for new products or [transform old content into revitalized experiences](enmasse).
+I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. I [break ground](adt/adt.mdx) for new products or [transform old content into revitalized experiences](enmasse.mdx).
 
 ### Your organization is unique
 I thrive learning about new processes, software, and what matters to your experts and audiences. To write effectively for an organization, it's essential to listen deeply and get hands on experience with their products.
@@ -38,6 +38,7 @@ I thrive learning about new processes, software, and what matters to your expert
     - See below for a presentation I made at Content Connections in 2018. It describes how we can use AI (Acrolinx) in partnership with human intelligences in powerful ways. Celebrate and support humans to do what they do best, and use computers for what they do best. 
         - Yes, my laugh is a little goofy, but hopefully charming!
         - Yes, I sincerely do get a little verklempt talking about Kim Stanley Robinson and dreams for a better future.
+
 <div style={{textAlign: 'center'}}>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8h4ZdJQjTZA?si=B72ZrMN3LUGbX_0q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>

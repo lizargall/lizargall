@@ -66,21 +66,21 @@ To use the Python version of our tools, you'll generally need Python 3.9+ (3.10+
 
 ### Project Aria Tools
 
-[Project Aria Tools](/data_utilities/data_utilities.mdx) provides open source Python and C++ code and APIs for working with Aria data. Due to the multimodal nature of Project Aria data, the data is stored in [VRS files](/data_formats/aria_vrs/aria_vrs.mdx). Project Aria Tools provides API wrappers for using VRS tools, specifically tailored to working with Aria data. Using Project Aria Tools should make it easier to plug your data into other applications with more accessible formatting and labeling.
+[Project Aria Tools](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/data_utilities) provides open source Python and C++ code and APIs for working with Aria data. Due to the multimodal nature of Project Aria data, the data is stored in [VRS files](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/aria_vrs/aria_vrs). Project Aria Tools provides API wrappers for using VRS tools, specifically tailored to working with Aria data. Using Project Aria Tools should make it easier to plug your data into other applications with more accessible formatting and labeling.
 
-If there are VRS functions you wish Project Aria Tools had, please contact us using any of our [Support Channels](support.mdx).
+If there are VRS functions you wish Project Aria Tools had, please contact us using any of our [Support Channels](https://facebookresearch.github.io/projectaria_tools/docs/support.mdx).
 
 
 #### APIs
-* [DataProvider](/data_utilities/core_code_snippets/data_provider.mdx)
+* [DataProvider](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/data_provider)
     * Read Project Aria sequences and raw sensor data (VRS files)
-* [Calibration](/data_utilities/core_code_snippets/calibration.mdx)
+* [Calibration](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/calibration)
     * Retrieve calibration data and interact with Aria camera models
-* [MPS](/data_utilities/core_code_snippets/mps.mdx)
+* [MPS](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/mps)
     * Read Project Aria MPS (derived) data
 * Images
-    * [Python Visualization Guide](/data_utilities/visualization/visualization_python.mdx)
-    * [C++ Visualization Guide](/data_utilities/visualization/visualization_cpp.mdx)
+    * [Python Visualization Guide](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_python)
+    * [C++ Visualization Guide](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_cpp)
     * Tooling enables users to:
         * Visualize time-synced recordings for one or more Project Aria sequences.
         * Visualize recordings and see 3D visualizations of pre-computed trajectory using time-synced data
@@ -91,7 +91,7 @@ Check the [Project Aria Tools release log for the latest updates](https://github
 
 #### Data Review
 
-The [vrs_to_mp4](/data_utilities/advanced_code_snippets/vrs_to_mp4.mdx) script exports a VRS file to MP4 and was created to help researchers send files for review more easily. Please note, MP4 files will not contain the full sensor suite.
+The [vrs_to_mp4](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/advanced_code_snippets/vrs_to_mp4) script exports a VRS file to MP4 and was created to help researchers send files for review more easily. Please note, MP4 files will not contain the full sensor suite.
 
 #### Code samples
 * [VRS Mutation (C++)](https://github.com/facebookresearch/projectaria_tools/blob/main/tools/samples/vrs_mutation/Readme.md)
@@ -110,9 +110,9 @@ The [vrs_to_mp4](/data_utilities/advanced_code_snippets/vrs_to_mp4.mdx) script e
 
 Project Aria Tools code that is only relevant if you have access to Project Aria Glasses and are collecting your own data:
 
-* [Project Aria MPS Command Line Interface (MPS CLI)](/ARK/mps/request_mps/mps_cli.mdx) is a convenient way to request [Machine Perception Services (MPS)](/ARK/mps/mps.mdx). Through the MPS CLI you can request:
-    * [SLAM](/data_formats/mps/slam/slam.mdx), [Eye Gaze](/data_formats/mps/mps_eye_gaze.mdx) and [Hand Tracking](/data_formats/mps/hand_tracking/hand_tracking.mdx) data
-    * [Multi-sequence SLAM data](/data_formats/mps/slam/mps_multi_slam.mdx) - SLAM data generated using multiple VRS recordings in a shared coordinate frame
+* [Project Aria MPS Command Line Interface (MPS CLI)](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps/request_mps/mps_cli) is a convenient way to request [Machine Perception Services (MPS)](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps). Through the MPS CLI you can request:
+    * [SLAM](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/slam), [Eye Gaze](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/mps_eye_gaze) and [Hand Tracking](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/hand_tracking/) data.
+    * [Multi-sequence SLAM data](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/slam/mps_multi_slam) - SLAM data generated using multiple VRS recordings in a shared coordinate frame.
 
 
 ### Aria Research Kit
@@ -135,7 +135,7 @@ If you're using Android, your mobile device will need:
 If you're using iOS:
 
 * OS version must be iOS 14 or above
-* (Optional) TrueDepth camera (iPhone X or later) needed for [eye-tracking calibration](/ARK/mps/eye_gaze_calibration.mdx)
+* (Optional) TrueDepth camera (iPhone X or later) needed for [eye-tracking calibration](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps/eye_gaze_calibration)
 
 
 #### Project Aria Client SDK with CLI
@@ -156,10 +156,10 @@ You will need to install the Client SDK with CLI using a venv virtual environmen
 
 #### MPS CLI
 
-Accessed via the PyPI installation of Project Aria Tools, the [Project Aria MPS Command Line Interface (MPS CLI)](/ARK/mps/request_mps/mps_cli.mdx) provides a streamlined way to request [Machine Perception Services (MPS)](/ARK/mps/mps.mdx):
+Accessed via the PyPI installation of Project Aria Tools, the [Project Aria MPS Command Line Interface (MPS CLI)](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps/request_mps/mps_cli) provides a streamlined way to request [Machine Perception Services (MPS)](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps):
 
-* Request [SLAM](/data_formats/mps/slam/slam.mdx), [Eye Gaze](/data_formats/mps/mps_eye_gaze.mdx) and [Hand Tracking](/data_formats/mps/hand_tracking/hand_tracking.mdx) data
-* Request [Multi-Sequence SLAM data](/data_formats/mps/slam/mps_multi_slam.mdx)
+* Request [SLAM](/https://facebookresearch.github.io/projectaria_tools/docsdata_formats/mps/slam), [Eye Gaze](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/mps_eye_gaze) and [Hand Tracking](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/hand_tracking) data
+* Request [Multi-Sequence SLAM data](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/slam/mps_multi_slam)
 
 
 #### Aria Studio
@@ -175,13 +175,13 @@ Aria Studio is an application will launch in your default web-browser and provid
     * Groups are stored on your local machine and associated with your Aria user account
 * Request and manage Machine Perception Services (MPS) requests
 
-Like the MPS CLI, you can have granular control over settings such as uploads and download speeds by customizing $HOME/.projectaria/mps.ini.
+Like the MPS CLI, you can have granular control over settings such as uploads and download speeds by customizing `$HOME/.projectaria/mps.ini`.
 
 #### Desktop Companion app
 
 The Desktop Companion app provides the ability to record, transfer, process, validate and visualize Aria data through a desktop interface. Users can also request MPS data for single recordings. Please note, Aria Studio is the preferred GUI for working with Aria data.
 
-While Aria data can be downloaded using the Desktop app, it may be faster to [download the data using other means](/ARK/ARK_quickstart.mdx#download-data).
+While Aria data can be downloaded using the Desktop app, it may be faster to [download the data using other means](ARK_quickstart.mdx#download-data).
 
 The Desktop Companion app can be installed on:
 
@@ -216,9 +216,9 @@ EgoBlur is an open source AI model from Meta to preserve privacy by detecting an
 
 Because of Aria’s unique data structure, we recommend using Project Aria Tools as an interface to access the data via an abstraction (an X_provider string) that allows users to iterate through all the sensor recordings.
 
-* [How Project Aria Uses VRS](/data_formats/aria_vrs/aria_vrs.mdx)
-* [Getting Started Guide](/data_utilities/getting_started.mdx) (view sample data via Jupyter Notebook or Google Colab)
-* [Download Project Aria Tools Codebase](/data_utilities/installation/download_codebase.mdx)
+* [How Project Aria Uses VRS](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/aria_vrs)
+* [Getting Started Guide](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/getting_started) (view sample data via Jupyter Notebook or Google Colab)
+* [Download Project Aria Tools Codebase](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/installation/download_codebase)
 
 
 ### How do I use the IMU data?
@@ -229,39 +229,39 @@ Because of Aria’s unique data structure, we recommend using Project Aria Tools
 the calibration id div is placed here so that the anchor tag will work effectively for the content below
 ----->
 
-We recommend using [Trajectory MPS outputs](/data_formats/mps/slam/mps_trajectory.mdx) instead of raw IMU data wherever possible. Go to [MPS Code Snippets](/data_utilities/core_code_snippets/mps.mdx) for how to load open loop or closed loop trajectory data.
+We recommend using [Trajectory MPS outputs](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/slam/mps_trajectory) instead of raw IMU data wherever possible. Go to [MPS Code Snippets](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/mps) for how to load open loop or closed loop trajectory data.
 
 
 ### What calibration information is available?
 #### General calibration concepts
 
-* [2D Image Coordinate System Conventions](/data_formats/coordinate_convention/2d_image_coordinate_system_convention.mdx) (intrinsics)
-* [3D Coordinate Frame Conventions](/data_formats/coordinate_convention/3d_coordinate_frame_convention.mdx) (extrinsics, non-visual sensor coordinate systems and CPF)
-* [Calibration Code Snippets](/data_utilities/core_code_snippets/calibration.mdx)
-* [Tech Insights](/tech_insights/tech_insights.mdx) - technical deeper dives on domain-specific topics, such as how we model sensors mathematically in calibration:
-    * [Camera intrinsic models](/tech_insights/camera_intrinsic_models.mdx)
-    * [Sensor measurement model](/tech_insights/sensor_measurement_model.mdx)
+* [2D Image Coordinate System Conventions](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/coordinate_convention/2d_image_coordinate_system_convention) (intrinsics)
+* [3D Coordinate Frame Conventions](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/coordinate_convention/3d_coordinate_frame_convention) (extrinsics, non-visual sensor coordinate systems and CPF)
+* [Calibration Code Snippets](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/calibration)
+* [Tech Insights](https://facebookresearch.github.io/projectaria_tools/docs/tech_insights) - technical deeper dives on domain-specific topics, such as how we model sensors mathematically in calibration:
+    * [Camera intrinsic models](https://facebookresearch.github.io/projectaria_tools/docs/tech_insights/camera_intrinsic_models)
+    * [Sensor measurement model](https://facebookresearch.github.io/projectaria_tools/docs/tech_insights/sensor_measurement_model)
 
 
 #### SLAM MPS Calibration data
 
 `Online_calibration.jsonl` is a SLAM MPS output that contains one json online calibration record per line. Each record is a json dict object that contains timestamp metadata and the result of online calibration for the cameras and IMUs.
 
-The calibration parameters contain [intrinsics](/tech_insights/camera_intrinsic_models.mdx) and [extrinsics](/data_formats/coordinate_convention/3d_coordinate_frame_convention.mdx) parameters for each sensor as well as a time offsets that best temporally align their data.
+The calibration parameters contain [intrinsics](https://facebookresearch.github.io/projectaria_tools/docs/tech_insights/camera_intrinsic_models) and [extrinsics](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/coordinate_convention/3d_coordinate_frame_convention) parameters for each sensor as well as a time offsets that best temporally align their data.
 
 
 #### In-Session Eye Gaze Calibration
 
-This is not related to standard calibration. [In-Session Eye Gaze Calibration](/ARK/mps/eye_gaze_calibration.mdx) enables researchers to improve the eye gaze estimations in Eye Gaze MPS outputs, enabling researchers to more accurately determine where wearers are looking during the recordings.
+This is not related to standard calibration. [In-Session Eye Gaze Calibration](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps/eye_gaze_calibration) enables researchers to improve the eye gaze estimations in Eye Gaze MPS outputs, enabling researchers to more accurately determine where wearers are looking during the recordings.
 
 When users collect data using Aria glasses, they can initiate In-Session Eye Gaze Calibration. Once they’ve performed this task personalized, as well as general Eye Gaze MPS, can be generated. Every person is unique in terms of how they move their eyes and look at objects, so the personalized_eye_gaze estimation is expected to be more accurate for the individual.
 
 
 ### Should I use VRS or Project Aria Tools?
 
-Project Aria Tools provides VrsDataProvider which offers some, but not all, of the VRS API capabilities. Go to [How Project Aria Uses VRS](/data_formats/aria_vrs/aria_vrs.mdx) for more information.
+Project Aria Tools provides VrsDataProvider which offers some, but not all, of the VRS API capabilities. Go to [How Project Aria Uses VRS](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/aria_vrs/aria_vrs) for more information.
 
-We’ve tailored VrsDataProvider to meet the requirements of people using Aria data. If there are capabilities in the VRS API that you would like to access when using Project Aria Tools, please use one of our [Support channels](/support.mdx) to let us know what you’re looking for and what features you would like.
+We’ve tailored VrsDataProvider to meet the requirements of people using Aria data. If there are capabilities in the VRS API that you would like to access when using Project Aria Tools, please use one of our [Support channels](https://facebookresearch.github.io/projectaria_tools/docs/support) to let us know what you’re looking for and what features you would like.
 
 
 ## How do I get involved?
@@ -272,7 +272,7 @@ Download and explore our various [open datasets](https://www.projectaria.com/dat
 
 For questions or feature requests relating to Project Aria Tools, we encourage you to post to the [Issues page on GitHub](https://github.com/facebookresearch/projectaria_tools/issues).
 
-Go to our [Attribution and Contributing page](/attribution_citation//attribution_citation.mdx) if you’d like to find out how to cite Project Aria or contribute to our open tooling.
+Go to our [Attribution and Contributing page](https://facebookresearch.github.io/projectaria_tools/docs/attribution_citation) if you’d like to find out how to cite Project Aria or contribute to our open tooling.
 
 [Research Challenges](https://www.projectaria.com/challenges/) are posted to Projectaria.com. Open research challenges allow us to collectively accelerate the state-of-the-art with the community. We believe these challenges will help to establish a baseline for external researchers to build and foster reproducible research on egocentric Computer Vision and AI/ML algorithms for scene perception, reconstruction and understanding, and contextual AI.
 

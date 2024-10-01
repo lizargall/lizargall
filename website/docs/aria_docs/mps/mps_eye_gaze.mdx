@@ -13,7 +13,7 @@ This page is an archive of technical writing I did for Project Aria. For the mos
 
 ## Eye Gaze Data Format
 
-Project Aria's [Machine Perception Services (MPS)](/ARK/mps/mps.mdx) uses Aria's Eye Tracking (ET) camera images to estimate the direction the user is looking. This eye gaze estimation is in [Central Pupil Frame](/data_formats/coordinate_convention/3d_coordinate_frame_convention.mdx#the-nominal-central-pupil-frame-cpf). Eye Gaze outputs may be part of Open Dataset Releases or Project Aria Partners can request MPS services on their own data.
+Project Aria's [Machine Perception Services (MPS)](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps) uses Aria's Eye Tracking (ET) camera images to estimate the direction the user is looking. This eye gaze estimation is in [Central Pupil Frame](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/coordinate_convention/3d_coordinate_frame_convention.mdx#the-nominal-central-pupil-frame-cpf). Eye Gaze outputs may be part of Open Dataset Releases or Project Aria Partners can request MPS services on their own data.
 
 Eye Gaze outputs are available for all recordings made with Eye Tracking cameras enabled. Partner data is not made available to Meta researchers or Meta’s affiliates. Go to [MPS Data Lifecycle](/ARK/mps/mps_processing.mdx) for more details about how partner data is processed and stored.
 
@@ -33,9 +33,9 @@ Eye Gaze MPS file outputs are:
 * `personalized_eye_gaze.csv` - only if you’ve made the recording with [in-session Eye Gaze Calibration](/ARK/mps/eye_gaze_calibration.mdx)
 
 ### Further resources
-* [Visualize Data Using Python](/data_utilities/visualization/visualization_python.mdx)
-* [Visualize Data Using C++](/data_utilities/visualization/visualization_cpp.mdx)
-* [Eye Gaze Code Snippets](/data_utilities/core_code_snippets/eye_gaze_code.mdx), includes:
+* [Visualize Data Using Python](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_python.mdx)
+* [Visualize Data Using C++](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_cpp.mdx)
+* [Eye Gaze Code Snippets](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/eye_gaze_code.mdx), includes:
     * Data loading
     * Vector conversion (yaw pitch to 3 vector)
     * Coordinates System (CPF_To_Device)
@@ -43,7 +43,7 @@ Eye Gaze MPS file outputs are:
 ## general_eye_gaze.csv
 `general_eye_gaze.csv` outputs are available for all recordings made with Eye Tracking cameras.
 
-At this time, all Open Dataset Eye Gaze data was computed using the older model. [Aria Digital Twin (ADT)](/open_datasets/aria_digital_twin_dataset/aria_digital_twin_dataset.mdx) used their ground truth system to compute eye gaze depth for their release.
+At this time, all Open Dataset Eye Gaze data was computed using the older model. [Aria Digital Twin (ADT)](https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_digital_twin_dataset/aria_digital_twin_dataset) used their ground truth system to compute eye gaze depth for their release.
 
 Where a cell shows 0, the data is not provided for that model, but to ensure backwards compatibility it will be represented as 0 in Project Aria Tools readers.
 
@@ -73,7 +73,7 @@ Where a cell shows 0, the data is not provided for that model, but to ensure bac
 
 
 ## personalized_eye_gaze.csv
-`personalized_eye_gaze.csv` outputs are only generated if the recording has [in-session Eye Gaze Calibration data](/ARK/mps/eye_gaze_calibration.mdx). The schema is exactly the same as `general_eye_gaze.csv`.  The session_uids between general and personalized output will be the same.
+`personalized_eye_gaze.csv` outputs are only generated if the recording has [in-session Eye Gaze Calibration data](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps/eye_gaze_calibration). The schema is exactly the same as `general_eye_gaze.csv`.  The session_uids between general and personalized output will be the same.
 
 The in-session calibration is used to compute user specific calibration (gaze correction parameters). The yaw and pitch values will be adjusted based on this calibration. If the instructions for in-session calibration are followed correctly, the calibrated eye gaze is expected to be more accurate compared to general eye gaze.
 
@@ -106,7 +106,7 @@ Some common factors that impact uncertainty include:
 * Hair occluding the eye tracking cameras
 * Re-adjusting glasses or taking them off to clean them
 
-For utility function to load the eye gaze in Python and C++, please check the [code examples](/docs/data_utilities/core_code_snippets/mps#eye-gaze)
+For utility function to load the eye gaze in Python and C++, please check the [code examples](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/mps#eye-gaze)
 
 
 ### Session_uid
@@ -131,7 +131,7 @@ When there are multiple users in the same vrs file (users handing off glasses to
 
 ## summary.json
 
-The summary.json file provides a high level overview of the output for each of the major stages. This is similar to the [operator summary output](/data_formats/mps/mps_summary.mdx#operator-summary) from the MPS location pipeline.
+The summary.json file provides a high level overview of the output for each of the major stages. This is similar to the [operator summary output](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/mps_summary#operator-summary) from the MPS location pipeline.
 
 For each stage of the ET pipeline, there will be one section in this file. If the section is missing, that means that the stage is not applicable or was not run.
 

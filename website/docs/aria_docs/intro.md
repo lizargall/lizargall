@@ -52,7 +52,7 @@ We believe that open source accelerates the pace of innovation in the world. We�
 
 Open datasets powered by Project Aria data include:
 
-* [Aria Everyday Activities (AEA)](/open_datasets/aria_everyday_activities_dataset/aria_everyday_activities_dataset.mdx) - a re-release of Aria’s first Pilot Dataset, updated with new tooling and location data, to accelerate the state of machine perception and AI.
+* [Aria Everyday Activities (AEA)](https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_everyday_activities_dataset) - a re-release of Aria’s first Pilot Dataset, updated with new tooling and location data, to accelerate the state of machine perception and AI.
 * [Aria Digital Twin (ADT)](https://www.projectaria.com/datasets/adt/) - a real-world dataset, with hyper-accurate digital counterpart & comprehensive ground-truth annotation
 * [Aria Synthetic Environments (ASE)](https://www.projectaria.com/datasets/ase/) - a procedurally-generated synthetic Aria dataset for large-scale ML research
 * [HOT3D](https://www.projectaria.com/datasets/hot3d/) - a new benchmark dataset for vision-based understanding of 3D hand-object interactions
@@ -63,14 +63,14 @@ Research challenges, using our open datasets, are posted to [projectaria.com](ht
 
 Models created using Aria data include:
 * [EgoBlur](https://www.projectaria.com/tools/egoblur/) - an open source AI model from Meta to preserve privacy by detecting and blurring PII from images. Designed to work with egocentric data (such as Aria data) and non-egocentric data.
-* [Project Aria Eye Tracking](https://github.com/facebookresearch/projectaria_eyetracking) - an open source inference code for the [Pre March 2024 Eye Gaze Model](/data_formats/mps/mps_eye_gaze.mdx) used by Machine Perception Services (MPS)
+* [Project Aria Eye Tracking](https://github.com/facebookresearch/projectaria_eyetracking) - an open source inference code for the [Pre March 2024 Eye Gaze Model](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/mps/mps_eye_gaze) used by Machine Perception Services (MPS)
 
-Aria data is recorded using [VRS](/data_formats/aria_vrs/aria_vrs.mdx), an open source file format. Our open source code, [Project Aria Tools](/data_utilities/data_utilities.mdx), provides a C++ and Python interface that helps people incorporate VRS data into a wide range of downstream applications.
+Aria data is recorded using [VRS](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/aria_vrs/aria_vrs), an open source file format. Our open source code, [Project Aria Tools](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/data_utilities), provides a C++ and Python interface that helps people incorporate VRS data into a wide range of downstream applications.
 
 
 ## Interested in getting access to the Aria Research Kit (ARK)?
 
-Through our OSI data, tooling and research challenges we aim to support the broadest audience of the research community. For researchers who also need access to a [physical Project Aria device](/tech_spec/hardware_spec.mdx), we offer the [Aria Research Kit (ARK)](https://www.projectaria.com/research-kit/).
+Through our OSI data, tooling and research challenges we aim to support the broadest audience of the research community. For researchers who also need access to a [physical Project Aria device](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec), we offer the [Aria Research Kit (ARK)](https://www.projectaria.com/research-kit/).
 
 Project Aria devices can be used to:
 
@@ -80,7 +80,7 @@ Project Aria devices can be used to:
 * Stream data
     * Use the Project Aria Client SDK to stream and subscribe to data on your local machine
 
-Before applying for the ARK, please explore our OSI offerings and [FAQ](/faq.mdx). Once you are confident that the ARK is a good match for your research, please apply for the Aria Research Kit.
+Before applying for the ARK, please explore our OSI offerings and [FAQ](faq.mdx). Once you are confident that the ARK is a good match for your research, please apply for the Aria Research Kit.
 
 * [Project Aria: Academic Partnership Interest Form](https://www.facebook.com/help/contact/409561724891076)
 * [Project Aria: Corporate Partnership Interest Form](https://docs.google.com/forms/d/e/1FAIpQLSeEQkP6zM-T2mrn5WUy2K-CliiXPXXmgHUEmT20FtAk5fi6vw/viewform)
@@ -90,8 +90,8 @@ Our team will review your application and reach out to you with next steps if yo
 
 ## Just received Project Aria glasses?
 
-* [About ARK](/ARK/about_ARK.mdx) provides an overview of different ways you can use the device
-* The [Quickstart Guide](/ARK/ARK_quickstart.mdx) covers how to set up your glasses
-* The [Glasses User Manual](/ARK/glasses_manual/glasses_user_manual.mdx) provides a range of information, including how to factory reset your glasses
+* [About ARK](https://facebookresearch.github.io/projectaria_tools/docs/ARK/about_ARK) provides an overview of different ways you can use the device
+* The [Quickstart Guide](https://facebookresearch.github.io/projectaria_tools/docs/ARK/ARK_quickstart) covers how to set up your glasses
+* The [Glasses User Manual](https://facebookresearch.github.io/projectaria_tools/docs/ARK/glasses_manual/glasses_user_manual) provides a range of information, including how to factory reset your glasses
 
-If you encounter any issues, go to our [Support page](/support.mdx) for multiple ways to get in touch!
+If you encounter any issues, go to our [Support page](https://facebookresearch.github.io/projectaria_tools/docs/support) for multiple ways to get in touch!

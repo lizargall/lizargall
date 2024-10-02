@@ -134,7 +134,7 @@ const config = {
             items: [
               {
                 label: 'LinkedIn',
-                href: '/https://www.linkedin.com/in/lizargall/',
+                href: 'https://www.linkedin.com/in/lizargall/',
               },
               {
                 label: 'GitHub',

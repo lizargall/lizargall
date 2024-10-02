@@ -2,7 +2,7 @@
 sidebar_position: 10
 id: dataprovider
 title: Accessing Sensor Data
-description: The Project Aria Data Provider provides a customized way to retrieve and read data from [VRS](aria-vrs.mdx) files in an intuitive and effective way.
+description: The Project Aria Data Provider provides a customized way to retrieve and read data from VRS files in an intuitive and effective way.
 ---
 
 # Accessing Project Aria Sensor Data
@@ -13,7 +13,7 @@ This page is an archive of technical writing I did for Project Aria. For the mos
 
 ## Introduction
 
-The Project Aria Data Provider provides a customized way to retrieve and read data from [VRS](aria-vrs.mdx) files in an intuitive and effective way.
+The Project Aria Data Provider provides a customized way to retrieve and read data from [VRS](https://facebookresearch.github.io/vrs/docs/Overview/) files in an intuitive and effective way.
 
 Project Aria data can also be loaded by reading VRS files directly, using [VRS tools](https://facebookresearch.github.io/vrs/) or other tools that leverage VRS APIs. This page contains instructions for the most common uses of Project Aria Data Provider and then describes how we have used VRS.
 
@@ -42,7 +42,7 @@ vrs_data_provider.openFile(‘recording.vrs’)
 
 Use `vrs_data_provider` to set which sensor stream/s the Aria Data Provider should read. The available sensor stream is constructed by `set`*`<streamType>`*`Player`
 
-* See [Sensors and Measurements](sensors-measurements.mdx) for a list of all the stream types.
+* Go to [Sensors and Measurements](sensors-measurements.mdx) for a list of all the stream types.
 
 This example is for SLAM left camera:
 
@@ -161,7 +161,7 @@ p_imuRight
 # array([ 3.32648252, -1.50695095, 1.10720445])
 ```
 
-To find out more about Calibration go to [Using Project Aria Calibration Sensor Data](calibration.mdx)
+To find out more about Calibration go to [Using Project Aria Calibration Sensor Data](https://facebookresearch.github.io/Aria_data_tools/docs/howto/calibration/)
 
 ## How the Project Aria Data Provider works
 

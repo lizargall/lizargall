@@ -13,9 +13,9 @@ This page is an archive of technical writing I did for Project Aria. For the mos
 
 ## Eye Gaze Data Format
 
-Project Aria's [Machine Perception Services (MPS)](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps) uses Aria's Eye Tracking (ET) camera images to estimate the direction the user is looking. This eye gaze estimation is in [Central Pupil Frame](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/coordinate_convention/3d_coordinate_frame_convention.mdx#the-nominal-central-pupil-frame-cpf). Eye Gaze outputs may be part of Open Dataset Releases or Project Aria Partners can request MPS services on their own data.
+Project Aria's [Machine Perception Services (MPS)](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mps) uses Aria's Eye Tracking (ET) camera images to estimate the direction the user is looking. This eye gaze estimation is in [Central Pupil Frame](https://facebookresearch.github.io/projectaria_tools/docs/data_formats/coordinate_convention/3d_coordinate_frame_convention#the-nominal-central-pupil-frame-cpf). Eye Gaze outputs may be part of Open Dataset Releases or Project Aria Partners can request MPS services on their own data.
 
-Eye Gaze outputs are available for all recordings made with Eye Tracking cameras enabled. Partner data is not made available to Meta researchers or Meta’s affiliates. Go to [MPS Data Lifecycle](/ARK/mps/mps_processing.mdx) for more details about how partner data is processed and stored.
+Eye Gaze outputs are available for all recordings made with Eye Tracking cameras enabled. Partner data is not made available to Meta researchers or Meta’s affiliates. Go to [MPS Data Lifecycle](mps_processing.mdx) for more details about how partner data is processed and stored.
 
 In March 2024, we updated our eye gaze model to support depth estimation. We do this by providing left and right eye gaze directions (yaw values) along with the depth at which these gaze directions intersect (translation values).
 
@@ -30,12 +30,12 @@ In the new model, the convergence points and distances are derived from the pred
 Eye Gaze MPS file outputs are:
 * `summary.json` - high level report on MPS eye gaze generation
 * `general_eye_gaze.csv` - based on the standard eye gaze configuration
-* `personalized_eye_gaze.csv` - only if you’ve made the recording with [in-session Eye Gaze Calibration](/ARK/mps/eye_gaze_calibration.mdx)
+* `personalized_eye_gaze.csv` - only if you’ve made the recording with [in-session Eye Gaze Calibration](eye_gaze_calibration.mdx)
 
 ### Further resources
-* [Visualize Data Using Python](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_python.mdx)
-* [Visualize Data Using C++](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_cpp.mdx)
-* [Eye Gaze Code Snippets](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/eye_gaze_code.mdx), includes:
+* [Visualize Data Using Python](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_python)
+* [Visualize Data Using C++](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/visualization/visualization_cpp)
+* [Eye Gaze Code Snippets](https://facebookresearch.github.io/projectaria_tools/docs/data_utilities/core_code_snippets/eye_gaze_code), includes:
     * Data loading
     * Vector conversion (yaw pitch to 3 vector)
     * Coordinates System (CPF_To_Device)

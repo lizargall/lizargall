@@ -34,6 +34,8 @@ const config = {
     locales: ['en'],
   },
 
+
+
   presets: [
     [
       'classic',
@@ -64,6 +66,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      metadata: [
+        {name: 'keywords', content: 'liz argall, elizabeth argall, technical writing, documentation, portfolio'},
+      ],
       image: 'img/liz_social_card.jpg',
       navbar: {
         title: 'Liz Argall',

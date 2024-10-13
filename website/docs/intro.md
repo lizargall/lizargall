@@ -7,6 +7,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 # Liz Argall
 Creating empowering documentation and processes; where you need it, when you need it.
 
+Liz Argall is a technical writer, content manager, author and trainer who delivers humanizing, data informed, accessible and technically complex projects for a range of organizations, from Fortune 500 companies to non-profit theater companies!
+
 ### Documentation is everywhere
 [I train, inspire and empower SMEs to create stronger documentation](aria_docs/aria_docs.mdx). Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and docstrings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
 

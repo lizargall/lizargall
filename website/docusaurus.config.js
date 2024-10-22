@@ -115,6 +115,10 @@ const config = {
                 label: 'Project Aria Docs',
                 to: '/docs/aria_docs',
               },
+              {
+                label: 'En Masse Entertainment',
+                to: '/docs/enmasse',
+              },
             ],
           },
           {
@@ -129,7 +133,7 @@ const config = {
                 to: '/docs/aria_docs/mps/mps_cli_guide',
               },
               {
-                label: 'Acrolinx - an AI content governance tool',
+                label: 'Acrolinx - an AI Content Governance Tool',
                 to: '/docs/acrolinx',
               },
             ],

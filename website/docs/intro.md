@@ -29,6 +29,8 @@ I thrive learning about new processes, software, and what matters to your expert
     - Complex step by step instructions.
 - [Audio Troubleshooting for Halo Infinite](https://support.halowaypoint.com/hc/en-us/articles/4410860512788-Audio-Troubleshooting-for-Halo-Infinite) (external link)
     - Audio troubleshooting guide for Halo Infinite that included accordions for multiple complex steps.
+- <a href="/downloads/emergency_co-ordination_plan.pdf" download>ACT Community Sector Emergency Co-ordination Plan</a>
+
 
 ## Communications strategy and consulting:
 - [The Pulp Stage Case Study](pulp_stage.mdx)

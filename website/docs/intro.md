@@ -10,7 +10,7 @@ Creating empowering documentation and processes; where you need it, when you nee
 Liz Argall is a technical writer, content manager, author and trainer who delivers humanizing, data informed, accessible and technically complex projects for a range of organizations, from Fortune 500 companies to non-profit theater companies!
 
 ### Documentation is everywhere
-[I train, inspire and empower SMEs to create stronger documentation](aria_docs/aria_docs.mdx). Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and docstrings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
+[I train, inspire and empower SMEs to create stronger documentation](aria_docs/aria_docs.mdx). Whether the content is for websites, manuals or in the code. Code as documentation will only work if there is adequate documentation in the code! Are your docstrings sufficient? How do you know? Various surveys ([such as MDN Web Developer Needs Assessment](https://hacks.mozilla.org/2020/12/2020-mdn-web-developer-needs-assessment-now-available/)) have shown that inadequate or outdated documentation is a major pain point. Better documentation can substantially increase the long term velocity of projects and improve employee satisfaction.
 
 ### Greenfield or legacy documentation
 I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. I [break ground](adt/adt.mdx) for new products or [transform old content into revitalized experiences](enmasse.mdx).

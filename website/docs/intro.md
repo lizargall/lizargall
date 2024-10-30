@@ -37,6 +37,8 @@ I thrive learning about new processes, software, and what matters to your expert
     - Graphic design, marketing and governance consulting.
 - <a href="/downloads/circus_maternity_2007.doc">Warehouse Circus Maternity Policy - download .pdf</a>
     - In 2007 I consulted broadly to create what may be the first formal maternity policies and guidelines for a circus in the anglophone world.
+- [Book Review: Past Tense – Facing Family Secrets and Finding Myself in Therapy](https://www.graphicmedicine.org/comic-reviews/past-tense-facing-family-secrets-and-finding-myself-in-therapy/)
+    - Example of non-technical non-fiction writing.
 - <a href="/downloads/acrolinx_ppt.pdf" download>Acrolinx Presentation - download .pdf</a>
     - Example of Acrolinx analysis and demo made for a potential customer, using their own sample documents.
     - See below for a presentation I made at Content Connections in 2018. It describes how we can use AI (Acrolinx) in partnership with human intelligences in powerful ways. Celebrate and support humans to do what they do best, and use computers for what they do best. 

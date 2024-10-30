@@ -101,23 +101,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Case Studies',
+            title: 'External Examples',
             items: [
               {
-                label: 'Aria Data Tools',
-                to: '/docs/adt',
+                label: 'HOT3D README Commit',
+                href: 'https://github.com/facebookresearch/hot3d/commit/a23c9dc4aa1e0679a5089af376e7cbd32434c2f5',
               },
               {
-                label: 'The Pulp Stage',
-                to: '/docs/pulp_stage',
-              },
-              {
-                label: 'Project Aria Docs',
-                to: '/docs/aria_docs',
-              },
-              {
-                label: 'En Masse Entertainment',
-                to: '/docs/enmasse',
+                label: 'Book Review: Past Tense',
+                href: 'https://www.graphicmedicine.org/comic-reviews/past-tense-facing-family-secrets-and-finding-myself-in-therapy/',
               },
             ],
           },

@@ -11,14 +11,13 @@ My GitHub history is not very long, as most of my contributions have been throug
 
 ## How I approach Technical Writing
 ### Documentation is everywhere
-I train, inspire and empower SMEs to create stronger documentation. Whether the content is for websites, manuals or in the code. The need for clear documentation, comments and docstrings will become stronger when LLMs interrogate code. LLMs can provide valuable insights, but only if the code is adequately documented.
+[I train, inspire and empower SMEs to create stronger documentation](aria_docs/aria_docs.mdx). Whether the content is for websites, manuals or in the code. Code as documentation will only work if there is adequate documentation in the code! Are your docstrings sufficient? How do you know? Various surveys ([such as MDN Web Developer Needs Assessment](https://hacks.mozilla.org/2020/12/2020-mdn-web-developer-needs-assessment-now-available/)) have shown that inadequate or outdated documentation is a major pain point for developers. I don't just write documentation, I help developers become documentation champions who can see just how much velocity and extra time they get when code is documented.
 
 ### Greenfield or legacy documentation
-I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. Breaking ground for new products or transforming old content into revitalized experiences.
+I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. I [break ground](adt/adt.mdx) for new products or [transform old content into revitalized experiences](enmasse.mdx).
 
 ### Your organization is unique
-I thrive learning about new processes, software, and what matters to your experts and audiences. To write effectively for an organization, it's essential to listen deeply and get hands on experience with their products.
-
+I thrive learning about new processes, software, and what matters to your experts and audiences. I produce effective materials for organizations by listening deeply and getting hands-on experience with the products.
 
 
 ## As a human

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 40
+sidebar_position: 15
 title: Aria Glasses Quickstart
 description: What to do once you've received your Project Aria glasses.
 ---
@@ -27,7 +27,7 @@ Once you've been approved and can receive your Aria glasses you will get the fol
     * Contains your account details, use these for signing into the Mobile and Desktop Companion apps
 * [Academic Partners only] Join Project Aria Academic Partner Announcements, Feedback & Support
     * Follow the prompts to join Aria's research community space where researchers and engineers at Meta and all our Academic partners can connect, ask questions, share ideas and provide support.
-    * See [How to join the Academic Partner Workplace group](https://facebookresearch.github.io/projectaria_tools/docs/ARK/workplacegroup) for further instructions.
+    * Go to [How to join the Academic Partner Workplace group](https://facebookresearch.github.io/projectaria_tools/docs/ARK/workplacegroup) for further instructions.
 
 ## Get connected
 
@@ -134,8 +134,9 @@ Engaging the privacy switch instead of the Capture button will stop the recordin
 
 ### Mobile Companion app
 
-* Select New Recording Session in the Aria Dashboard to start recording
-* Select Stop Recording in the app
+* Select **New Recording Session** in the Aria Dashboard to start recording
+* Select **Stop Recording** in the recording view to stop recording_profiles
+    * While recording, you can navigate to other parts of the app
     * Go to the [Mobile Companion App page](https://facebookresearch.github.io/projectaria_tools/docs/ARK/mobile_companion_app) for more information
 
 You can alter the Name and Notes of a recording by going to the Recordings menu, selecting a recording and then selecting **Edit**.
@@ -143,7 +144,7 @@ You can alter the Name and Notes of a recording by going to the Recordings menu,
 
 ## Download data
 
-Aria recordings are stored as a VRS file and an accompanying JSON file that includes the recording's metadata. Metadata includes:
+Aria recordings are stored as a VRS file and an accompanying JSON file contains the recording's metadata. Metadata includes:
 
 * The name and description of the recording as shown in the Mobile Companion App
 * The recording profile used
@@ -182,7 +183,7 @@ MTP is not provided natively on MacOS, but there are lightweight tools that you 
 
 ### Use the Desktop App
 
-Go to the Recordings section in the Desktop app to download your data. See the [Desktop App page](https://facebookresearch.github.io/projectaria_tools/docs/ARK/desktop_companion_app) for further information.
+Go to the Recordings section in the Desktop app to download your data. Go to the [Desktop App page](https://facebookresearch.github.io/projectaria_tools/docs/ARK/desktop_companion_app) for further information.
 
 ### Use ADB
 
@@ -193,12 +194,12 @@ To download all your data:
 adb pull /sdcard/recording /home/unixname/MyVRSFolder
 ```
 
-To download a single VRS file
+To download a single VRS file:
 ```bash
 adb pull /sdcard/recording/myVrsFile.vrs /home/unixname/MyVRSFolder/
 ```
 
-To download a single metadata file
+To download a single metadata file:
 ```bash
 adb pull /sdcard/recording/myVrsFile.json /home/unixname/MyVRSFolder/
 ```

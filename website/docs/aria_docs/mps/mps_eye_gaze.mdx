@@ -1,14 +1,14 @@
 ---
 sidebar_position: 45
-title: MPS Eye Gaze
+title: MPS Eye Gaze Outputs
 description: MPS uses Aria's Eye Tracking (ET) camera images to estimate the direction the user is looking.
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'
 
-# MPS Output - Eye Gaze
+# MPS Output - Eye Gaze Data
 
 :::info Writing Sample
-This page is an archive of technical writing I did for Project Aria. For the most up to date documentation go to [Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/intro).
+This page is based on technical writing I did for Project Aria. For the most up to date documentation go to [Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/intro).
 :::
 
 ## Eye Gaze Data Format
@@ -45,14 +45,14 @@ Eye Gaze MPS file outputs are:
 
 At this time, all Open Dataset Eye Gaze data was computed using the older model. [Aria Digital Twin (ADT)](https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_digital_twin_dataset/aria_digital_twin_dataset) used their ground truth system to compute eye gaze depth for their release.
 
-Where a cell shows 0, the data is not provided for that model, but to ensure backwards compatibility it will be represented as 0 in Project Aria Tools readers.
+Where a cell shows 0, the data has not been provided for that model, but to ensure backwards compatibility it will be represented as 0 in Project Aria Tools readers.
 
 |**Column**	|Type	| Pre March 2024 Model | New Model |
 |---	|---	|---	|-----|
 |`tracking_timestamp_us`	|int	|The timestamp, in microseconds, of the eye tracking camera frame in device time domain. The MPS location output also contains pose estimations in the same time domain and these timestamps can be directly used to infer the device pose from the MPS location output.	| Same. |
-|`yaw_rads_cpf`	|float	| Eye gaze yaw angle in radians in CPF frame. The yaw angle is the angle between the projection of the eye gaze vector (originating at CPF) on XZ plane and the Z axis in the CPF frame. | Not provided, however this value can be computed using helper functions and is automatically read when parsed with our data utilities.	|
+|`yaw_rads_cpf`	|float	| Eye gaze yaw angle in radians in CPF frame. The yaw angle is the angle between the projection of the eye gaze vector (originating at CPF) on XZ plane and the Z axis in the CPF frame. | 0 (0 represents not provided), however this value can be computed using the [Project Aria Open Source Eye Tracking Tool](https://github.com/facebookresearch/projectaria_eyetracking) and is automatically read when parsed with our data utilities.	|
 |`pitch_rads_cpf`	|float	|Eye gaze pitch angle in radians in CPF frame. The pitch angle is the angle between the projection of the eye gaze vector (originating at CPF) on YZ plane and the Z axis in the CPF frame.	|  This now corresponds to the common pitch of the left and right gaze direction. |
-|`depth_m`	|float	|   Not available. | Absolute depth in meters of the 3D gaze point in CPF frame. Depth values are capped at 4m. If there are timestamps where the predicted values are degenerate, this cell is empty.  	|
+|`depth_m`	|float	|   0 | Absolute depth in meters of the 3D gaze point in CPF frame. Depth values are capped at 4m. If there are timestamps where the predicted values are degenerate, this cell is empty.  	|
 |`yaw_low_rads_cpf`	|float	|Lower bound of the confidence interval for the **yaw** estimation.	|  0 |
 |`pitch_low_rads_cpf`	|float	|Lower bound of the confidence interval for the **pitch** estimation.	| 0 |
 |`yaw_high_rads_cpf`	|float	|Upper bound of the confidence interval for the **yaw** estimation.	|  0 |

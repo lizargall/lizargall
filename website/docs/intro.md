@@ -25,7 +25,7 @@ I thrive learning about new processes, software, and what matters to your expert
     - Aria Data Tools provides C++ and Python3 tools to interact with Project Aria data.
 - [Project Aria FAQ](/aria_docs/faq.mdx)
     - Comprehensive overview of the Project Aria program, from July 2024. The program has evolved substantially in two years and our external documentation serves a much broader audience.
-- [Time Synchronized Recordings with Multiple Aria Glasses](/aria_docs/ticsync.mdx)
+- [How to Create Time-Synchronized Recordings With Multiple Aria Devices](/aria_docs/ticsync.mdx)
     - Complex step by step instructions.
 - [Audio Troubleshooting for Halo Infinite](https://support.halowaypoint.com/hc/en-us/articles/4410860512788-Audio-Troubleshooting-for-Halo-Infinite) (external link)
     - Audio troubleshooting guide for Halo Infinite that included accordions for multiple complex steps.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 30
+sidebar_position: 50
 title: Timestamp Definitions
 description: How Project Aria timestamp data is formatted in VRS.
 ---
@@ -18,7 +18,7 @@ Open datasets that contain temporally aligned data from multiple devices that us
 * [Aria Everyday Activities (AEA)](https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_everyday_activities_dataset/aria_everyday_activities_dataset) - recordings with 1-2 Aria glasses in a shared location
 * [Aria Digital Twin (ADT)](https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_digital_twin_dataset/aria_digital_twin_dataset) - recordings with 1-2 Aria glasses in a shared location
 
-Aria research partners can use TICSync to make [time synchronized recordings between multiple devices](https://facebookresearch.github.io/projectaria_tools/docs/ARK/sdk/ticsync).
+Aria research partners can use TICSync to make [time-synchronized recordings between multiple devices](https://facebookresearch.github.io/projectaria_tools/docs/ARK/sdk/ticsync).
 
 **Further resources:**
 
@@ -58,13 +58,13 @@ Therefore, device timestamp - record timestamp for the same record is 42ms for 2
 
 ## VRS Timestamps (Multiple Devices)
 
-Accurate time synchronization is essential when coordinating data collection or analyzing data between multiple devices (real world or synthetic). Without synchronization, any device’s built-in recording of time will naturally drift and go out of sync (like how your microwave slowly loses time over a year).
+Accurate time-synchronization is essential when coordinating data collection or analyzing data between multiple devices (real world or synthetic). Without synchronization, any device’s built-in recording of time will naturally drift and go out of sync (like how your microwave slowly loses time over a year).
 
 ### TimeDomain.TIME_CODE
 
 Multiple devices (either multiple Aria glasses or Aria glasses plus other devices) that are temporally aligned using an external shared clock will include the TimeDomain.TIME_CODE datastream in the VRS file.
 
-We use time sync servers to record pairs of timestamps between the server’s local timestamp and the Aria glasses’ device timestamp. This generates a mapping between the Aria’s device time and the server’s local time. The server’s local time serves as a unified time domain shared by the multiple devices.
+We use time-sync servers to record pairs of timestamps between the server’s local timestamp and the Aria glasses’ device timestamp. This generates a mapping between the Aria’s device time and the server’s local time. The server’s local time serves as a unified time domain shared by the multiple devices.
 
 Timecode time refers to the same “capture” event as device time, but differs by the clock assigning the timestamps. Thus we can convert between timecode time and device time by looking up values in the time mapping table.
 

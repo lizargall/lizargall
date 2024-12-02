@@ -6,7 +6,7 @@ description: Project Aria provides Open Science Initiatives (OSI) and the Aria R
 ---
 
 :::info Writing Sample
-This page is based on technical writing I did for Project Aria. There's always room for improvement, so I've made a few revisions! Some of the links will be broken, as I did not bring across the whole site. For the most up to date documentation go to [Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/intro).
+This page is based on technical writing I did for Project Aria. For the most up to date documentation go to [Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/intro). 
 :::
 
 Project Aria is a research platform designed to accelerate egocentric (from a human perspective) AI research. Project Aria data, tooling and resources helps advance research around the world in areas such as computer vision, robotics, and contextual AI. 
@@ -75,7 +75,7 @@ Through our OSI data, tooling and research challenges we aim to support the broa
 Project Aria devices can be used to:
 
 * Collect data
-    * In addition to capturing data from a single device, TICSync can be used to capture time synchronized data from multiple Aria devices in a shared world location
+    * In addition to capturing data from a single device, TICSync can be used to capture time-synchronized data from multiple Aria devices in a shared world location
     * Cloud based Machine Perception Services (MPS) are available to generate SLAM, Multi-SLAM, Eye Gaze and Hand Tracking derived data outputs. Partner data is only used to serve MPS requests. Partner data is not available to Meta researchers or Meta’s affiliates.
 * Stream data
     * Use the Project Aria Client SDK to stream and subscribe to data on your local machine
@@ -91,7 +91,7 @@ Our team will review your application and reach out to you with next steps if yo
 ## Just received Project Aria glasses?
 
 * [About ARK](https://facebookresearch.github.io/projectaria_tools/docs/ARK/about_ARK) provides an overview of different ways you can use the device
-* The [Quickstart Guide](https://facebookresearch.github.io/projectaria_tools/docs/ARK/ARK_quickstart) covers how to set up your glasses
+* The [Getting Started With Project Aria Glasses](https://facebookresearch.github.io/projectaria_tools/docs/ARK/ARK_quickstart) covers how to set up your glasses
 * The [Glasses User Manual](https://facebookresearch.github.io/projectaria_tools/docs/ARK/glasses_manual/glasses_user_manual) provides a range of information, including how to factory reset your glasses
 
 If you encounter any issues, go to our [Support page](https://facebookresearch.github.io/projectaria_tools/docs/support) for multiple ways to get in touch!

@@ -69,7 +69,7 @@ const config = {
       appId: 'WM5BCONW0N',
 
       // Public API key: it is safe to commit it
-      apiKey: 'YOUf91f237734bc454c89a91e2f06d4afe0',
+      apiKey: '2078d3cef0a7a70ed5b62bf0e8a84a21',
 
       indexName: 'lizargallio',
 

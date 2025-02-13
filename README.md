@@ -3,7 +3,6 @@
 ## Facts and figures
 Technical writer, content creator and problem solver.
 
-I've just finished a contract working as [Project Aria's](https://www.projectaria.com/) Technical Writer and I'm looking for my next opportunity. 
 * [LinkedIn](https://www.linkedin.com/in/lizargall/)
 * [Liz Argall Portfolio](https://lizargall.github.io/docs/intro) (Docusaurus static website hosted on GitHub)
 

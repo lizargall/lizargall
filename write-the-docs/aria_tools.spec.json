@@ -1,0 +1,33 @@
+{
+    "tests": [
+      {
+        "steps": [
+          {
+            "description": "Create a Project Aria sandbox directory in your documents directory",
+            "runShell": "mkdir -p $HOME/Documents/projectaria_sandbox"
+          },
+          {
+            "description": "Go to the  directory",
+            "runShell": "cd $HOME/Documents/projectaria_sandbox"
+          },
+           {
+            "description": "Use Git clone to get the latest version of Project Aria Tools",
+            "runShell": "git clone https://github.com/facebookresearch/projectaria_tools.git -b 1.5.8"
+          },
+          {
+            "description": "remove the previous virtual environment",
+            "runShell": "rm -rf $HOME/projectaria_tools_python_env"
+          },
+          {
+            "description": "python3 -m venv $HOME/projectaria_tools_python_env",
+            "runShell": "python3 -m venv $HOME/projectaria_tools_python_env"
+          },
+          {
+            "description": "Activate",
+            "runShell": "source $HOME/projectaria_tools_python_env/bin/activate"
+          }
+
+        ]
+      }
+    ]
+  }

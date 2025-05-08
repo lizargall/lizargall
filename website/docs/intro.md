@@ -18,7 +18,7 @@ I use data based decision making, stakeholder engagement and content marketing s
 ### Your organization is unique
 I thrive learning about new processes, software, and what matters to your experts and audiences. I produce effective materials for organizations by listening deeply and getting hands-on experience with the products.
 
-## Technical writing samples:
+## Technical writing samples
 
 - [Aria Data Tools Overview](/adt/adt_overview.mdx)
     - Straightforward introduction to Aria Data Tools, from July 2022. The first open tooling we released for working the Aria data.
@@ -32,7 +32,7 @@ I thrive learning about new processes, software, and what matters to your expert
 - <a href="/downloads/emergency_co-ordination_plan.pdf" download>ACT Community Sector Emergency Co-ordination Plan</a>
 
 
-## Communications strategy and consulting:
+## Communications strategy and consulting
 - [The Pulp Stage Case Study](pulp_stage.mdx)
     - Graphic design, marketing and governance consulting.
 - <a href="/downloads/circus_maternity_2007.doc">Warehouse Circus Maternity Policy - download .pdf</a>

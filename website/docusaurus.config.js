@@ -115,18 +115,26 @@ const config = {
             label: 'Portfolio',
           },
 
-            // {
-            //   to: '/search_term_analysis',
-            //   label: 'Analysis',
-            //   position: 'left',
-            // },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'creativeSidebar',
           //   position: 'left',
           //   label: 'Creative',
           // },
-           {to: '/blog', label: 'Resources', position: 'left'},
+          {
+            to: '/blog', 
+            label: 'Resources', 
+            position: 'left'},
+          {
+            to: '/work',
+            label: 'Work With Me',
+            position: 'left',
+          },
+         {
+            href: 'https://github.com/lizargall',
+            label: 'GitHub',
+            position: 'right',
+          },  
           {
             href: 'https://www.linkedin.com/in/lizargall/',
             label: 'LinkedIn',

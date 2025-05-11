@@ -1,0 +1,20 @@
+data:
+  label: Data Based Decision Making
+  permalink: /data
+  description: Structures for quantitative or qualitative data based decision making.
+health:
+  label: Human Health
+  permalink: /health
+  description: Neurodiversity, physical health and wellbeing, healthier workplaces.
+friends:
+  label: Friends
+  permalink: /friends
+  description: Friendship is magic, shout outs to people who are sharing their thoughts about technical writing or putting good stuff into the world.
+reviews:
+  label: Reviews
+  permalink: /reviews
+  description: Reviews or products, books or experiences.
+user:
+  label: User Experience
+  permalink: /user
+  description: Content that focuses on user experience.

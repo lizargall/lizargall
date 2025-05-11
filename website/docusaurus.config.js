@@ -114,13 +114,19 @@ const config = {
             position: 'left',
             label: 'Portfolio',
           },
+
+            // {
+            //   to: '/search_term_analysis',
+            //   label: 'Analysis',
+            //   position: 'left',
+            // },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'creativeSidebar',
           //   position: 'left',
           //   label: 'Creative',
           // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+           {to: '/blog', label: 'Resources', position: 'left'},
           {
             href: 'https://www.linkedin.com/in/lizargall/',
             label: 'LinkedIn',

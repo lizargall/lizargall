@@ -130,6 +130,11 @@ const config = {
             label: 'Work With Me',
             position: 'left',
           },
+          {
+            href: 'https://mailchi.mp/520551e04a4d/documentarians-rock',
+            label: 'Newsletter',
+            position: 'right'
+          },
          {
             href: 'https://github.com/lizargall',
             label: 'GitHub',
@@ -178,6 +183,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Newsletter',
+                href: 'https://mailchi.mp/520551e04a4d/documentarians-rock'
+              },
               {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/in/lizargall/',

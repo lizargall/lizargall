@@ -98,7 +98,7 @@ const config = {
     },
       // Replace with your project's social card
       metadata: [
-        {name: 'keywords', content: 'liz argall, elizabeth argall, technical writing, documentation, portfolio'},
+        {name: 'keywords', content: 'liz argall, elizabeth argall, technical writing, technical writer'},
       ],
       image: 'img/liz_social_card.jpg',
       navbar: {

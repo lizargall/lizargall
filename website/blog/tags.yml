@@ -9,7 +9,7 @@ health:
 friends:
   label: Friends
   permalink: /friends
-  description: Friendship is magic. Shout outs to people who are sharing their thoughts about technical writing or putting good stuff into the world.
+  description: Friendship is magic. These posts include shout outs to people who are sharing their thoughts about technical writing or putting good stuff into the world.
 reviews:
   label: Reviews
   permalink: /reviews
@@ -18,3 +18,8 @@ user:
   label: User Experience
   permalink: /user
   description: Content that focuses on user experience.
+templates:
+  label: Templates and Spreadsheets
+  permalink: /templates
+  description: Blog posts that include templates or spreadsheets you can grab.
+

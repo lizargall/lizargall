@@ -123,7 +123,7 @@ const config = {
           // },
           {
             to: '/blog', 
-            label: 'Resources', 
+            label: 'Blog', 
             position: 'left'},
           {
             to: '/work',
@@ -132,7 +132,7 @@ const config = {
           },
           {
             href: 'https://mailchi.mp/520551e04a4d/documentarians-rock',
-            label: 'Newsletter',
+            label: 'Subscribe',
             position: 'right'
           },
          {
@@ -184,7 +184,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Newsletter',
+                label: 'Subscribe',
                 href: 'https://mailchi.mp/520551e04a4d/documentarians-rock'
               },
               {
@@ -198,7 +198,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Built with Docusaurus.`,
+        copyright: `© Liz Argall | If you'd like to license or reuse my content, lets chat! liz@lizargall.com|  Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

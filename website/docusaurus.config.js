@@ -198,7 +198,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© Liz Argall | If you'd like to license or reuse my content, lets chat! liz@lizargall.com|  Built with Docusaurus.`,
+        copyright: `Project Aria content was released under the Apache 2.0 license, the rest is © Liz Argall | If you'd like to license or reuse my content, lets chat! liz@lizargall.com|  Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

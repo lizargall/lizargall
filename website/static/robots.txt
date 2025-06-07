@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lizargall.github.io/sitemap.xml

@@ -25,6 +25,16 @@ const config = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'google-site-verification',
+        content: 'k1qcZWgLmNpiwsIkdJiK_Ra66dDxon77PSqpaDj7_fE',  // <-- Your verification code here
+      },
+    },
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -99,6 +109,8 @@ const config = {
       // Replace with your project's social card
       metadata: [
         {name: 'keywords', content: 'liz argall, elizabeth argall, technical writing, technical writer'},
+        {name: 'author', content: 'Liz Argall'},
+        {name: 'description', content: 'Technical writing portfolio, documentation samples, and conference presentations by Liz Argall.'}
       ],
       image: 'img/liz_social_card.jpg',
       navbar: {

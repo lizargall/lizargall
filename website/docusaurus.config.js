@@ -175,6 +175,10 @@ const config = {
                 label: 'Book Review: Past Tense',
                 href: 'https://www.graphicmedicine.org/comic-reviews/past-tense-facing-family-secrets-and-finding-myself-in-therapy/',
               },
+              {
+                label: 'Ngombor Community Development Alliance',
+                href: 'https://ngombor.org',
+              }
             ],
           },
           {

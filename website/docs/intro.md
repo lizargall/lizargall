@@ -48,3 +48,11 @@ I thrive learning about new processes, software, and what matters to your expert
 <div style={{textAlign: 'center'}}>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8h4ZdJQjTZA?si=B72ZrMN3LUGbX_0q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+## A community of practice
+lizargall.github.io is part of the <a href="https://caseyrfsmith.github.io/webring/">Tech Writing Blog Webring</a>
+<div style={{textAlign: 'center'}}>
+<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=prev&site=YOUR-SITE-URL">Previous</a> | 
+<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=next&site=YOUR-SITE-URL">Next</a> | 
+<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=random&site=YOUR-SITE-URL">Random</a>
+</div>

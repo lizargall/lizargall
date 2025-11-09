@@ -206,6 +206,10 @@ const config = {
                 href: 'https://mailchi.mp/520551e04a4d/documentarians-rock'
               },
               {
+                label: 'RSS feed',
+                href: 'https://lizargall.github.io/blog/rss.xml'
+              },
+              {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/in/lizargall/',
               },

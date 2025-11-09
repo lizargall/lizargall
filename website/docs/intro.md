@@ -52,7 +52,7 @@ I thrive learning about new processes, software, and what matters to your expert
 ## A community of practice
 lizargall.github.io is part of the <a href="https://caseyrfsmith.github.io/webring/">Tech Writing Blog Webring</a>
 <div style={{textAlign: 'center'}}>
-<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=prev&site=YOUR-SITE-URL">Previous</a> | 
-<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=next&site=YOUR-SITE-URL">Next</a> | 
-<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=random&site=YOUR-SITE-URL">Random</a>
+<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=prev&site=https://lizargall.github.io/">Previous</a> | 
+<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=next&site=https://lizargall.github.io/">Next</a> | 
+<a href="https://caseyrfsmith.github.io/webring/navigate.html?action=random&site=https://lizargall.github.io/">Random</a>
 </div>

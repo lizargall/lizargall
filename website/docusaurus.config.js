@@ -206,16 +206,12 @@ const config = {
                 href: 'https://mailchi.mp/520551e04a4d/documentarians-rock'
               },
               {
-                label: 'RSS feed',
+                label: 'RSS',
                 href: 'https://lizargall.github.io/blog/rss.xml'
               },
               {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/lizargall/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/lizargall',
+                label: 'Tech Writing Blog Webring',
+                href: 'https://caseyrfsmith.github.io/webring/'
               },
             ],
           },

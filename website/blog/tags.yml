@@ -22,4 +22,7 @@ templates:
   label: Templates and Spreadsheets
   permalink: /templates
   description: Blog posts that include templates or spreadsheets you can grab.
-
+ai:
+  label: AI
+  permalink: /ai
+  description: Discussions about AI, example of how AI can be used.

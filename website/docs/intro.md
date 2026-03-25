@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 # Liz Argall
 Creating empowering documentation and processes; where you need it, when you need it. 
 
-Liz Argall is a content strategist, change management consultant, author and trainer who delivers humanizing, data informed, accessible and technically complex projects to a range of organizations, from Fortune 50 companies through to small nonprofits.
+Liz Argall is a content strategist, change management consultant, author and trainer who delivers humanizing, data informed, accessible and technically complex projects to a range of organizations, from Fortune 50 companies through to small nonprofits. She works with leaders to go from "I know we need help, I don't know what kind of help we need" to "We've got a strong crew, a clear map and are ready for the next big challenge."
 
 ### Documentation is everywhere
 [I train, inspire and empower SMEs to create stronger documentation](aria_docs/aria_docs.mdx). Whether the content is for websites, manuals or in the code. Code as documentation will only work if there is adequate documentation in the code! Are your docstrings sufficient? How do you know? Various surveys ([such as MDN Web Developer Needs Assessment](https://hacks.mozilla.org/2020/12/2020-mdn-web-developer-needs-assessment-now-available/)) have shown that inadequate or outdated documentation is a major pain point for developers. I don't just write documentation, I help developers become documentation champions who can see just how much velocity and extra time they get when code is documented.

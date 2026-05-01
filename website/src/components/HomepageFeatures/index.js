@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Documentation is Everywhere',
+    title: 'Help with the messy middle',
     Svg: require('@site/static/img/unique.svg').default,
     description: (
       <>
-      I train, inspire and empower SMEs to create stronger documentation. Whether the content is for websites, manuals or in the code.
+      Working with leaders to turn ambiguity into action.
       </>
     ),
   },
   {
-    title: 'Greenfield or Legacy Documentation',
+    title: 'Support for your vision',
     Svg: require('@site/static/img/unique.svg').default,
     description: (
       <>
-       I use data based decision making, stakeholder engagement and content marketing strategies to create documentation, training and websites. Breaking ground for new products or transforming old content into revitalized experiences.
+      Helping SMEs and change makers articulate their vision in ways that are grounded and scalable
       </>
     ),
   },
   {
-    title: 'Your Organization is Unique',
+    title: 'Fostering healthy organizations',
     Svg: require('@site/static/img/unique.svg').default,
     description: (
       <>
-      I thrive learning about new processes, software, and what matters to your experts and audiences. To write effectively for an organization, it's essential to listen deeply and get hands on experience with their products.
+      Facilitating processes to help organizations innovate, renew, and rally around a shared goal
       </>
     ),
   },

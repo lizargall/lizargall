@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Help with the messy middle',
-    Svg: require('@site/static/img/unique.svg').default,
+    Svg: require('@site/static/img/svgs/action.svg').default,
     description: (
       <>
       Working with leaders to turn ambiguity into action.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Support for your vision',
-    Svg: require('@site/static/img/unique.svg').default,
+    Svg: require('@site/static/img/svgs/smes.svg').default,
     description: (
       <>
       Helping SMEs and change makers articulate their vision in ways that are grounded and scalable
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Fostering healthy organizations',
-    Svg: require('@site/static/img/unique.svg').default,
+    Svg: require('@site/static/img/svgs/innovate.svg').default,
     description: (
       <>
       Facilitating processes to help organizations innovate, renew, and rally around a shared goal

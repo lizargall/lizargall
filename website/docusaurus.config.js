@@ -172,10 +172,6 @@ const config = {
                 href: 'https://github.com/facebookresearch/hot3d/commit/a23c9dc4aa1e0679a5089af376e7cbd32434c2f5',
               },
               {
-                label: 'Book Review: Past Tense',
-                href: 'https://www.graphicmedicine.org/comic-reviews/past-tense-facing-family-secrets-and-finding-myself-in-therapy/',
-              },
-              {
                 label: 'Ngombor Community Development Alliance',
                 href: 'https://ngombor.org',
               }
@@ -216,7 +212,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Project Aria content was released under the Apache 2.0 license, the rest is © Liz Argall | If you'd like to license or reuse my content, lets chat! liz@lizargall.com|  Built with Docusaurus.`,
+        copyright: `Project Aria content was released under the Apache 2.0 license, the rest is © Liz Argall | If you'd like to license or reuse my content, lets chat! liz@lizargall.com | Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

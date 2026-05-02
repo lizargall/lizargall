@@ -5,7 +5,7 @@ title: Portfolio
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Liz Argall
-Creating empowering documentation and processes; where you need it, when you need it. 
+Creating empowering documentation, process and strategy; where you need it, when you need it.
 
 Liz Argall is a content strategist, change management consultant, author and trainer who delivers humanizing, data informed, accessible and technically complex projects to a range of organizations, from Fortune 50 companies through to small nonprofits. She works with leaders to go from "I know we need help, I don't know what kind of help we need" to "We've got a strong crew, a clear map and are ready for the next big challenge."
 
